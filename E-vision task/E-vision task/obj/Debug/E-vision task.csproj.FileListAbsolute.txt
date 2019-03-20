@@ -1,0 +1,7 @@
+c:\users\roka-pc\documents\visual studio 2012\Projects\E-vision task\E-vision task\bin\E-vision task.dll
+c:\users\roka-pc\documents\visual studio 2012\Projects\E-vision task\E-vision task\bin\E-vision task.pdb
+c:\users\roka-pc\documents\visual studio 2012\Projects\E-vision task\E-vision task\bin\EntityFramework.dll
+c:\users\roka-pc\documents\visual studio 2012\Projects\E-vision task\E-vision task\bin\EntityFramework.xml
+c:\users\roka-pc\documents\visual studio 2012\Projects\E-vision task\E-vision task\obj\Debug\E-vision task.csprojResolveAssemblyReference.cache
+c:\users\roka-pc\documents\visual studio 2012\Projects\E-vision task\E-vision task\obj\Debug\E-vision task.dll
+c:\users\roka-pc\documents\visual studio 2012\Projects\E-vision task\E-vision task\obj\Debug\E-vision task.pdb

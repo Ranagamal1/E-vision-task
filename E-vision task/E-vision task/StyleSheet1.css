@@ -1,0 +1,111 @@
+﻿body {
+     font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #3d3536;
+  background-color: #f3f2f2;
+  overflow-x:hidden;
+ 
+}
+
+
+ #div1 {
+            height: 633px;
+    margin-left: 372px;
+    margin-top: 122px;
+}
+.slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      visibility: visible;
+  }
+@keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+.btns {
+    width:230px;
+    height:60px;
+    border-radius:15px;
+    border:2px solid blue;
+    background-color:white;
+    color:blue;
+    margin-left:5%;
+    margin-top:20%;
+    font-size:20px;
+    box-shadow: 0 8px 16px 0 white, 0 6px 20px 0 blue;
+
+}
+.btns:hover {
+    color:white;
+    background-color:blue;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+ .div2 {
+            margin-left: 358px;
+            margin-top: 35px;
+    height: 112px;
+}
+.div3 {
+    margin-top: 19px;
+}
+#TextBox1, #TextBox2,#TextBox3,#TextBox4,#txtSearch {
+    border-radius:15px;
+}
+#Button1, #Button2,#Button5,#Button6 {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: #3d6ea5;
+     color: white;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+}
+#Label1, #Label2, #Label3, #Label4, #Label5, #Label6,#Label7 {
+    font-size:22px;
+    font-family:'Arial Rounded MT';
+}
+.navbar {
+      margin-bottom: 0;
+      background-color: white;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    background-color:rgba(0, 0, 0, 0.3) !important;
+    color:white;
+}
+.navbar-brand {
+    width:230px;
+    height:150px;
+}
+.cd-main-content {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
